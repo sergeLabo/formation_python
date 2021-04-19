@@ -4,6 +4,10 @@
 class Subliminale:
     pass
 
+sub = Subliminale()
+print("dir(sub)", dir(sub))
+print("dir(sub.__dict__)", dir(sub.__dict__))
+
 class Minimale:
     print("Un objet Minimale créé !")
 
@@ -33,6 +37,7 @@ class Contact:
 
     def __init__(self, name):
         self.name = name
+        self.phone = None
         
     def set_phone(phone):
         self.phone = phone
@@ -40,10 +45,12 @@ class Contact:
     def get_phone(self):
         return self.phone
         
-class Book(Contact):
-
-    def __init__(self):
-        pass
-
 c = Contact("toto")
 print(c.get_phone())
+
+copains = ["Emmanuel", "Jean"]
+mon_carnet = {}
+for copain in copains:
+    mon_carnet[copain] = Contact(copain)
+ 
+print("Le numéro de Emmanuel", mon_carnet["Emmanuel"].get_phone())
