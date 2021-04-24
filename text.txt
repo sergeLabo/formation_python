@@ -1,0 +1,28 @@
+
+0_fun.py
+
+
+
+1_variables.py
+    int float str print()
+
+2 et 3 bissextile
+
+Si une année n'est pas multiple de 4, elle n'est pas bissextile
+Si elle est multiple de 4, on regarde si multiple de 100
+    Si oui, on regarde si multiple de 400
+        Si oui, elle est bissextile
+        Si non, elle n'est pas bissextile
+    Si non, elle est bissextile
+
+4 et 5 listes
+
+6_boucle_for_range.py
+
+Documentation à https://docs.python.org/fr/3/
+Comment chercher ?
+
+7 excercice listes
+    suppression des doublons d'une liste
+    points to msg
+    msg to points
