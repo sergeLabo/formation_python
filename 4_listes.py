@@ -12,8 +12,13 @@ print(type(liste))
 # #for item in liste:
     # #print(item)
 
-# #points =
-# #for point
+# #mots = créer une liste avec des str
+# #for mot in  .....
+
+# # depenses = créer une liste avec des float
+# #for ...
+
+# Calculer la somme des depenses
 
 # #suite = [5, 6, 7, 21.3, "oh!", [3.21, 1478000]]
 

@@ -1,9 +1,9 @@
 
 a = 1
 b = 2  # int = integer = entier
-c = 3.90  # float = nombredécimal
+c = 3.90  # float = nombre décimal
 d = "labo"  # string = chaîne de caractères
-e = "toto"
+e = "éàèùîêâôû@çöü"
 
 r = a + b
 print("r", r)
@@ -14,23 +14,22 @@ print("a - b =", s)
 t = a / b
 print(t)
 
-print(d + e)
+# #print(d + e)
 # #print(a + e)
 
-print(str(a) + e)
-print("essai", int(c))
+# #print(str(a) + e)
+# #print("essai", int(c))
 
-print(f"l'armée du salut est {e}")
+# #print(f"l'armée du salut est {e}")
 
-u = True
-v = False
-ma_belle_variable = None
-print(ma_belle_variable)
+# #u = True
+# #v = False
+# #ma_belle_variable = None
+# #print(ma_belle_variable)
 
-a = 0
-A = 1
-print(a, A)
+# #a = 0
+# #A = 1
+# #print(a, A)
 
-# my_bazar
-# 1_toto
-# toto_1 toto1 t1 t0
+# #ma_var = "l'atelier"
+# ## ma_var = 'l'atelier'

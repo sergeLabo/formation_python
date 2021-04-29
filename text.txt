@@ -1,19 +1,11 @@
-
-0_fun.py
-
-
+https://www.python.org/shell
 
 1_variables.py
     int float str print()
 
-2 et 3 bissextile
+15_fun.py
 
-Si une année n'est pas multiple de 4, elle n'est pas bissextile
-Si elle est multiple de 4, on regarde si multiple de 100
-    Si oui, on regarde si multiple de 400
-        Si oui, elle est bissextile
-        Si non, elle n'est pas bissextile
-    Si non, elle est bissextile
+2 et 3 bissextile
 
 4 et 5 listes
 
