@@ -1,13 +1,16 @@
 
-# Parcours
+""" Parcours de liste """
 
 liste = [1, 2, 3, 4, 5, 5, 6, 7, 21.3, "oh!", [3.21, 1478000]]
 #        0  1  2  3  4  5  6  7  8      9      10
-
+#                                              premier du 10 ème = 3.21
+#                                              [0][10]
 print(len(liste))
 
-for item in liste:
-    print(item)
+"""Parcours"""
+
+# #for item in liste:
+    # #print(item)
 
 # #for entier in range(5):
     # #print(entier)
@@ -15,13 +18,14 @@ for item in liste:
 # #for entier in range(5, 10, 2):
     # #print(entier)
 
+# #index = 12
 # #a = liste.index(21.3)
 # #print(a)
 
 # #for i in range(len(liste)):
     # #print(liste[i])
 
-# ## liste de listes
+""" Liste de listes """
 # #points = [
             # #[12.3, 45],
             # #[-0.123, 81.74],
@@ -32,10 +36,10 @@ for item in liste:
 # #for point in points:
     # #print("Un point =", point, "avec coordonnées du point:", point[0], point[1])
 
-# Excercice:
+"""Excercices"""
 # faire idem print précédent avec i in range()
 
-# Faire avec for point in points:
+# Faire avec for point in points: avec
 # #points = [  [12.3, 45],
             # #None,
             # #[-0.123, 81.74],
