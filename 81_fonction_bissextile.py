@@ -4,8 +4,7 @@ Créer une fonction qui retourne
     True si bissextile
     False sinon
 
-Mettre ce code dans une fonction,
-puis l'utiliser avec une liste de date
+Utiliser la fonction avec une liste de date
 """
 
 if annee % 400 == 0:

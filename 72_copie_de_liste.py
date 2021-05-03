@@ -1,7 +1,7 @@
 
 """
 Sensibilisation aux valeurs en mémoire(RAM), appelées par
-    - un numéro deans la RAM
+    - un numéro dans la RAM
     - un pointeur, un lien
 """
 

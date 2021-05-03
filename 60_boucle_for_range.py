@@ -1,3 +1,20 @@
+intro = """Ceci n'est pas une pipe, c'est une doc-string.
+
+Ouvrez un terminal dans votre dossier formation-python:
+    git fetch origin
+    git reset --hard origin/master
+
+Dans Geany,
+    Ouvrez Editer/Preferences
+        Mettre à jour Fichier de projets:
+            soit ~/projets
+
+    Projet
+        Nouveau
+        Le projet machin est ouvert: Fermer
+        Nom: Saisir formation_python
+        Créer
+"""
 
 """ Parcours de liste """
 

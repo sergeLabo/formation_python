@@ -1,15 +1,12 @@
 
-"""
-    Programmation impérative, le paradigme originel et le plus courant
-        Programmation structurée, visant à structurer les programmes impératifs
-            pour en supprimer les instructions goto
-        Programmation procédurale, à comparer à la programmation fonctionnelle
-    Programmation orientée objet
+""" Programmation linéaire
+    Programmation fonctionnelle
+    Programmation orientée objet avec des class
 """
 
 def is_bissex(annee):
     """Calcule si une année est bissextile ou pas.
-    Retourne True ou False
+    Retourne True ou False.
     """
 
     if annee % 400 == 0:
