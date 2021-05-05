@@ -31,3 +31,5 @@ print("a =", a, "b =", b)
 # #print("type(l) =",type(l), "l =", l)
 # ## la copie pointe vers d'autres valeurs en mémoire
 # #t = l.copy()
+
+"""faire essai en terminal"""

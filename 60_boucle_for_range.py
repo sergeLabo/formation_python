@@ -1,6 +1,6 @@
 intro = """Ceci n'est pas une pipe, c'est une doc-string.
 
-Ouvrez un terminal dans votre dossier formation-python:
+Ouvrez un terminal dans votre dossier formation_python:
     git fetch origin
     git reset --hard origin/master
 

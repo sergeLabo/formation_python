@@ -17,8 +17,8 @@ test(1)
 test(-1)
 
 # Fonctions prédéfinies
-print( abs(-20),
-       max(2, 50),
-       int(str(1)),
-       type(int(str(1))),
-       dir(1))
+# #print( abs(-20),
+       # #max(2, 50),
+       # #int(str(1)),
+       # #type(int(str(1))),
+       # #dir(1))

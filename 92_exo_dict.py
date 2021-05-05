@@ -11,6 +11,6 @@ pour pierre: marié --> oui
 pour Ngolo: français --> oui
 pour Kim:   dictateur --> oui
 
-finir avec pprint contact
+finir avec print contact
 
 """
