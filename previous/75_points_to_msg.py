@@ -1,8 +1,11 @@
 
-""" Construire un Message à envoyé en OSC
+""" Construire un Message à envoyer en OSC
 
 Le message sera envoyé avec:
     osc_client.send('/points', msg)
+
+le chien de Emmanuel: Emmanuel's dog
+
 mais cette fonction n'est pas implémentée ici,
 vous construisez le msg seulement.
 

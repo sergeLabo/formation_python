@@ -4,6 +4,11 @@ Sensibilisation aux valeurs en mémoire(RAM), appelées par
     - un numéro dans la RAM
     - un pointeur, un lien
 """
+a = 73
+b = a
+print(b)
+a = 1
+print(b)
 
 a = [0, 1]
 b = a

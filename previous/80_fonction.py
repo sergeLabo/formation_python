@@ -53,8 +53,8 @@ from datetime import datetime
 def quelle_heure_est_il():
     print(datetime.now())
 
-# #print("il est", quelle_heure_est_il())
-# #quelle_heure_est_il()
+print("il est", quelle_heure_est_il())
+quelle_heure_est_il()
 
 """Arguments"""
 
