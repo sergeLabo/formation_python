@@ -15,7 +15,8 @@ address = ip, port
 
 # Affectation de valeurs
 a, b = ip, port
-print(type((a, b)))
+c = a, b
+print(type(c))
 
 # un tuple est immuable
 # #address[0] = "chez moi"

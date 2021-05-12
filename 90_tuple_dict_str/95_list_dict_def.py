@@ -1,3 +1,0 @@
-"""
-Exo list dict def
-"""

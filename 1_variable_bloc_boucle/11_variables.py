@@ -25,11 +25,11 @@ print(t)
 # #u = True
 # #v = False
 # #ma_belle_variable = None
-# #print(ma_belle_variable)
+# #print(u, v, ma_belle_variable)
 
 # #a = 0
 # #A = 1
 # #print(a, A)
 
 # #ma_var = "l'atelier"
-# ## ma_var = 'l'atelier'
+# #ma_var = 'l'atelier'

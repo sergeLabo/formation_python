@@ -1,7 +1,8 @@
 
 """
 Télécharger les datas d'une url.
-et les enregister
+et les enregister.
+data = html ou fichier
 """
 
 from urllib.request import Request, urlopen

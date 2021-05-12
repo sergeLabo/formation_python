@@ -17,15 +17,21 @@ Un objet a des méthodes et des attributs
 class Subliminale:
     pass
 
+s = Subliminale()
+print(f"Le type de s = Subliminale() est {type(s)}")
+print("dir(s)", dir(s))
 
 class Minimale:
     print("Un objet Minimale créé !")
 
 
+m = Minimale()
+print("m", m)
+
+
 class MyTest:
     def my_test(self):  # propre à l'objet
         """Pourquoi self?"""
-
         print("Premier test")
 
 
@@ -49,11 +55,6 @@ def pierre_soulages(new_color):
 
 c = pierre_soulages("rose")
 print(c)
-
-s = Subliminale()
-print(f"Le type de s = Subliminale() est {type(s)}")
-
-m = Minimale()
 
 b = Bicycle("rouge", "vtt")
 print(f"la couleur de mon velo rouge est {b.color}")
