@@ -16,7 +16,7 @@ bin/
 # Blender
 *.blend1
 
-.idea
+.idea/
 
 # Distribution / packaging
 .Python
