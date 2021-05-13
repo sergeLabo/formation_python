@@ -6,7 +6,7 @@ les éléments sont un couple clé: valeur = { clé: valeur }
 
 { clé: valeur , clé: valeur, clé: valeur .... }
 
-un dictionnaire n'est pas ordonné
+un dictionnaire n'est pas ordonné !
 """
 
 dico = {
@@ -43,3 +43,10 @@ import pprint
 pp = pprint.PrettyPrinter(indent=4)
 print("\n\nDictionnaire imprimé avec pprint:\n")
 pp.pprint(config)
+
+d = {0: 0, 1: 1}
+print(d)
+d[0] = 2
+print("ce n'est pas l'index 0:", d[0])
+d[0.5] = 2
+print(d)
