@@ -23,7 +23,6 @@ class MyConfig():
         self.verbose = verbose
         self.load_config()
 
-
     def load_config(self):
         """Lit le fichier *.ini, et copie la config dans un dictionnaire."""
 
@@ -49,23 +48,21 @@ class MyConfig():
         Uniquement int, float, str
         """
 
-        if isinstance(value, int):
+        if isinstance(value, int) or isinstance(value, float):
             val = str(value)
-        elif isinstance(value, float):
-            val = str(value)
-        elif isinstance(value, str):
-            val = """ + value + """
-        else:
-            return
 
-        config = SafeConfigParser()
-        config.read(self.ini)
-        config.set(section, key, val)
-        with open(self.ini, "w") as f:
-            config.write(f)
-        f.close()
-        if self.verbose:
-            print(f"{key} = {val} saved in {self.ini} in section {0section}\n")
+        if isinstance(value, str):
+            config = SafeConfigParser()
+            config.read(self.ini)
+            config.set(section, key, val)
+            with open(self.ini, "w") as f:
+                config.write(f)
+            f.close()
+            if self.verbose:
+                print(f"{key} = {val} saved in {self.ini} in section {section}\n")
+
+        else:
+            print("Sauvegarde impossible")
 
 
 if __name__ == "__main__":
@@ -73,7 +70,7 @@ if __name__ == "__main__":
     dossier = os.getcwd()
     print("dossier", dossier)
 
-    ma_config = MyConfig(dossier + "/config.ini")
+    ma_config = MyConfig(dossier + "/62_config.ini")
     a = ma_config.conf
     print("conf est un dictionnaire avec tous les paramètres")
     print(a)

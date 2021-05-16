@@ -10,17 +10,31 @@ un dictionnaire n'est pas ordonné !
 """
 
 dico = {
-        2: "première valeur",
-        1: ("localhost", 8888)
+        2                : "première valeur",
+        1                : ("localhost", 8888),
+        "nom"            : "mon réseau",
+        # [0, 1]         : "raté",
+        56.45            : 1056.45,
+        (127.0.0.1, 1000): "reseau 1"
         }
+
 print("mon premier dict", dico)
 
-""" Les virgules permettent toujours d'aller à la ligne """
+""" Les virgules permettent toujours d'aller à la ligne
+
+L'accès à un éléments se fait comme pour une liste, mais
+ce n'est pas un index, la valeur est cappelée par la clé
+
+"""
 
 # Ajout d'un item
 dico[3] = "toto"
+
+# Mise à jour d'un item
 dico[2] = None
-print("un dict plus grand", dico)
+dico["nom"] = "pierre"
+
+print("notre dict mis à jour:", dico)
 
 """Parcours d'un dictionnaire"""
 for key, value in dico.items():

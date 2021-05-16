@@ -1,10 +1,11 @@
 
-port = 0
-ip = ""
+port = 8000
+ip = "192.168.1.101"
 
 # tuple
 address = (ip, port)
 # ou
+# Les virgules permettent toujours d'aller à la ligne
 address = (ip,
            port)
 """

@@ -31,6 +31,7 @@ contact = {
 """Mettre dans un dict
 Itsi_bitsi_petit_bikini-Dalida.mid
 """
+#       [[bank, instrument], is_drums, name]
 liste = [
         [[0, 113], True, "DRUM R-8            "],
         [[0, 3], False, "BASS S-330          "],
@@ -47,13 +48,14 @@ liste = [
 """From given list
 a) Calculate the total price of the all the gadgets.
 b) Calculate the average of all the gadgets.
-""""
+"""
 gadgets = ["Mobile", "Laptop", 100, "Camera", 310.28, "Speakers", 27.00,
             "Television", 1000, "Laptop Case", "Camera Lens"]
 
 ###### Exercise 5
 """
-Imaginons qu'une requête dans une DB vous donne
+Imaginons qu'une requête dans une DB vous donne:
+
    "name": "Lloyd",
    "homework": [90.0,97.0,75.0,92.0],
    "quizzes": [88.0,40.0,94.0],

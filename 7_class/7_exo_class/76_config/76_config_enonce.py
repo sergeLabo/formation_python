@@ -25,7 +25,7 @@ class MyConfig():
         parser.read(self.ini, encoding="utf-8")
 
         # Lecture de parser et copie dans un dictionnaire
-        # chercher doc sur les internets
+        # chercher la doc sur les internets
         print("dir de parser", dir(parser))
 
 
@@ -33,20 +33,9 @@ class MyConfig():
         """Sauvegarde dans le fichier *.ini  avec section, key, value.
         Uniquement int, float, str
         """
-
-        if isinstance(value, int):
-            val = str(value)
-        elif isinstance(value, float):
-            val = str(value)
-        elif isinstance(value, str):
-            val = """ + value + """
-        else:
-            print("Sauvegarde dans le fichier uniquement de int, float, str ")
-            return
-
         pass
 
-        print(f"{key} = {val} saved in {self.ini} in section {section}\n")
+
 
 
 if __name__ == "__main__":

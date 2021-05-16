@@ -1,7 +1,6 @@
+s = """ Introduction aux class, appelée POO programation orientée objet
 
-""" Introduction aux class, appelée POO programation orientée objet
-
-Présentation des scripts mnist
+Présentation des scripts mnist: numpy et keras
 
 Une class permet de créer des objets.
 Un objet est un machin:    une voiture, un moteur, une fleur,
@@ -13,13 +12,19 @@ Un objet a des méthodes et des attributs
 
 """
 
+# #print("\ndir(str)\n", dir(s), "\n"*3)
+# #s = s.encode()
+# #print(type(s), s, "\n"*3)
 
+
+### Construire une  class
 class Subliminale:
     pass
 
 s = Subliminale()
 print(f"Le type de s = Subliminale() est {type(s)}")
 print("dir(s)", dir(s))
+print("\n\n")
 
 class Minimale:
     print("Un objet Minimale créé !")
@@ -27,12 +32,19 @@ class Minimale:
 
 m = Minimale()
 print("m", m)
+print("\n\n")
+
+# Pourquoi __name__
+print("Pourquoi __name__?")
+print(dir())
+print("__name__ =", __name__)
 
 
 class MyTest:
     def my_test(self):  # propre à l'objet
         """Pourquoi self?"""
         print("Premier test")
+print("\n\n")
 
 
 class Bicycle:
@@ -42,6 +54,7 @@ class Bicycle:
         """C'est le constructeur"""
 
         self.color = color
+        # self.color = col
         self.kind = kind
         a = self.pierre_soulages()
         print("pierre soulages =", a)
@@ -54,11 +67,11 @@ def pierre_soulages(new_color):
     return new_color
 
 c = pierre_soulages("rose")
-print(c)
+print("pierre_soulages(new_color):", c)
 
-b = Bicycle("rouge", "vtt")
-print(f"la couleur de mon velo rouge est {b.color}")
-print(f"il est du type {b.kind}")
+my_bicycle = Bicycle("rouge", "vtt")
+print(f"la couleur de mon velo rouge est {my_bicycle.color}")
+print(f"il est du type {my_bicycle.kind}")
 
 
 class Contact:

@@ -4,7 +4,6 @@ Créer une class pour créer des objets qui seront des instance de cette class,
 Nous recevons des valeurs en OSC, par exemple une position en profondeur,
     soit une seule valeur
     ces valeurs sont soit int ou float
-    faire une pile de 5
     quand la pile est pleine faire la moyenne
     Faire tourner avec une boucle
 """
@@ -34,6 +33,6 @@ if __name__ == '__main__':
 
     pile = PileFIFO(5)
 
-    for i in range(12, 100, 3):
+    for i in range(10, 110, 3):
         pass
         print(f"La moyenne est de {}")

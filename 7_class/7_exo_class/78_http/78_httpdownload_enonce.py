@@ -61,7 +61,7 @@ class HttpDownload:
         """Decode utf-8 si text, rien si fichier.
         Donc text = utf-8, fichier = bytes
         """
-        pass
+        resp = None
 
         return resp
 
@@ -72,7 +72,7 @@ class HttpDownload:
         Retourne aussi la réponse.
         Si réponse None, ne fera rien, retourne None
         """
-        resp =
+        resp = None
 
 
 
