@@ -14,6 +14,7 @@ bin/
 *.geany
 
 .idea/
+.idea/*
 
 # Blender
 *.blend1
