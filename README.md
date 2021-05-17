@@ -9,24 +9,26 @@ Matériel exigé:
 * Un PC sous Linux
 * Une version de python >= 3.6
 
-~~~
+```bash
 sudo apt install git geany geany-plugins python3-pip
 cd ~
 mkdir projets
 cd /projets
 git clone https://github.com/sergeLabo/formation_python.git
-~~~
+```
 
 Dans le dossier /votre_home/.config/, supprimer le dossier “geany” si il existe,
-puis coller le dossier geany du dossier formation_python.
+puis coller à la place le dossier geany du dossier formation_python.
 
 #### Mise à jour
 Le hard reset du git va écraser formation_python.geany
 Copier le fichier formation_python.geany ailleurs que dans le dossier formation_python soit puis recherge du git.
-~~~
-cp ~/projets/formation_python/formation_python.geany  ~/projets/formation_python.geany
 
-~~~
+```bash
+cp ~/projets/formation_python/formation_python.geany  ~/projets/formation_python.geany
+git fetch origin
+git reset --hard origin/master
+```
 
 #### Geany - The Flyweight IDE
 
