@@ -13,6 +13,8 @@ bin/
 # Geany
 *.geany
 
+.idea/
+
 # Blender
 *.blend1
 
