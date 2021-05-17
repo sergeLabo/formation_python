@@ -32,11 +32,11 @@ git reset --hard origin/master
 
 #### Geany - The Flyweight IDE
 
-Geany is a powerful, stable and lightweight programmer's text editor that provides tons of useful features without bogging down your workflow. It runs on Linux, Windows and MacOS is translated into over 40 languages, and has built-in support for more than 50 programming languages.
+[__Geany__](https://www.geany.org) is a powerful, stable and lightweight programmer's text editor that provides tons of useful features without bogging down your workflow. It runs on Linux, Windows and MacOS is translated into over 40 languages, and has built-in support for more than 50 programming languages.
 
 #### PyCharm
 
-PyCharm est beaucoup plus fort, mais quelle usine à gaz. Son gros avantage est de bien présenter la doc pendant l'édition, et de permettre de trouver toute les occurences d'une variable, fonction, class, leur utilisation et leur définition.
+[__PyCharm Community__](https://www.jetbrains.com/pycharm/download/#section=linux) est beaucoup plus fort, mais quelle usine à gaz. Son gros avantage est de bien présenter la doc pendant l'édition, et de permettre de trouver toute les occurences d'une variable, fonction, class, leur utilisation et leur définition.
 
 ### Edition collaborative en ligne
 
@@ -48,7 +48,6 @@ S'inscrire sur
 * Le upload d'un dossier n'est pas possible
 * le lien avec un git non plus
 * le fichier à excécuter est obligatoirement main.py
-
 
 #### replit
 
@@ -68,10 +67,14 @@ S'inscrire sur
 
 ### 5 Exercices
 
-### 6 Class
+### 6 Import
 
-### 7 Exercices Class
+### 7 Class
 
-###
+### 8
 
-###
+### 9 Divers
+
+#### Venv
+
+#### Mnist
