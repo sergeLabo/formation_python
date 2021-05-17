@@ -1,3 +1,7 @@
+"""
+L'interpréteur de python.org
+https://www.python.org/shell/
+"""
 
 a = 1
 b = 2  # int = integer = entier

@@ -56,8 +56,10 @@ S'inscrire sur
 * gratuit pour moins de 50 élèves
 * pull d'un git possible
 
-
 ### 1 Variable bloc boucle
+Les exemples se pratiquent dans:
+
+* [L'interpréteur de python.org](https://www.python.org/shell/)
 
 ### 2 Liste
 
