@@ -35,3 +35,21 @@ dico = {"nom": "CAMUS", "prénom": "ALBERT", "profession": "auteur à succès"}
 print()
 for key, val in dico.items():
     print("clé", key, "valeur", val)
+
+k = [x for x in dico.keys()]
+k = sorted(k)
+print(dico.keys())
+print(k)
+
+def somme(a, b):
+    """Fait la somme de a et b,
+    retourne la somme si a et entier
+    None sinon
+    """
+    if isinstance(a, int) and isinstance(b, int):
+        return a + b
+
+print(somme(1, 1))
+print(somme(1.0, 1))
+somme(a=1, b=2)
+somme(1, b=2)
