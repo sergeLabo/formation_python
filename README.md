@@ -83,8 +83,8 @@ Les exemples se pratiquent dans:
 
 ### Wiki de La Labomedia
 
-* [atelier python](https://ressources.labomedia.org/tag/atelier_python)
+* [atelier python](https://ressources.labomedia.org/tag/atelier_python?do=showtag&tag=atelier_python)
 
 ### Merci à
 
-  * [LaLabomedia](https://labomedia.org)
+  * [La Labomedia](https://labomedia.org)
