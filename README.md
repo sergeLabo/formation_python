@@ -80,3 +80,11 @@ Les exemples se pratiquent dans:
 #### Venv
 
 #### Mnist
+
+### Wiki de La Labomedia
+
+* [atelier python](https://ressources.labomedia.org/tag/atelier_python)
+
+### Merci à
+
+  * [LaLabomedia](https://labomedia.org)
