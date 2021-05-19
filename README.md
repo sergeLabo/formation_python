@@ -71,15 +71,19 @@ Les exemples se pratiquent dans:
 
 ### 6 Import
 
-### 7 Class
+### 7 Exception
 
-### 8
+### 8 Class
 
 ### 9 Divers
 
+#### Fichier / Texte
+
+#### Révision
+
 #### Venv
 
-#### Mnist
+#### IA / Mnist
 
 ### Wiki de La Labomedia
 
