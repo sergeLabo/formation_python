@@ -58,6 +58,9 @@ S'inscrire sur
 * gratuit pour moins de 50 élèves
 * pull d'un git possible
 
+* uncomment ctrl k / ctrl u
+* comment   ctrl k / ctrl c
+
 ### 1 Variable bloc boucle
 Les exemples se pratiquent dans:
 

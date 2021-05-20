@@ -43,7 +43,7 @@ print(k)
 
 def somme(a, b):
     """Fait la somme de a et b,
-    retourne la somme si a est entier
+    retourne la somme si a et b sont entiers
     None sinon
     """
     if isinstance(a, int) and isinstance(b, int):
