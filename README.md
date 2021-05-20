@@ -28,6 +28,7 @@ Copier le fichier formation_python.geany ailleurs que dans le dossier formation_
 cp ~/projets/formation_python/formation_python.geany  ~/projets/formation_python.geany
 git fetch origin
 git reset --hard origin/master
+cp ~/projets/formation_python.geany  ~/projets/formation_python.geany
 ```
 
 #### Geany - The Flyweight IDE
