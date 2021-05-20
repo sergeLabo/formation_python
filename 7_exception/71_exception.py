@@ -27,7 +27,7 @@ print("Génial c'est passé comme une fleur ...")
 # #sleep(10)
 # #print("Génial, la centrale de Tchernobyl a explosé ... ")
 # #print("\nFin du try dangereux.")
-print("erreur", erreur)
+#print("erreur", erreur)
 
 # ## Exception hierarchy
 # ## https://docs.python.org/3/library/exceptions.html#exception-hierarchy
@@ -81,7 +81,7 @@ def request(someurl, timeout=2):
 
     return response
 
-# #response = request("https://labomedia.org/toto/", timeout=1)
+response = request("https://labomedia.org/toto/", timeout=1)
 # #response = request("https://labomedia.org/toto/", timeout=0.01)
-# #response = request("https://ressources.labomedia.org/toto/", timeout=10)
-# #print(response)
+response = request("https://ressources.labomedia.org/toto/", timeout=10)
+print(response)
