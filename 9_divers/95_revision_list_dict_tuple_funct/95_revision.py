@@ -41,6 +41,23 @@ k = sorted(k)
 print(dico.keys())
 print(k)
 
+if "labomedia" in dico:
+    pass
+
+if "labomedia" in liste:
+    pass
+
+if "labomedia" not in liste:
+    pass
+
+if ma_var is not None:
+    pass
+
+if ma_var:
+    """ ma_var is not si ma_var = [] ou {} ou "" ou () ou 0 ou 0.0 """
+    if not ma_var:
+        pass
+
 def somme(a, b):
     """Fait la somme de a et b,
     retourne la somme si a et b sont entiers

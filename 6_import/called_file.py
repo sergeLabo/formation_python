@@ -1,6 +1,6 @@
 
-# #print(dir())
-# #print(__name__)
+# print(dir())
+# print(__name__)
 
 def print_merci():
     print("ce cours de python est génial")

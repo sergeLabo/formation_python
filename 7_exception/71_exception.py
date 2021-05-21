@@ -29,8 +29,8 @@ print("Génial c'est passé comme une fleur ...")
 # print("\nFin du try dangereux.")
 #print("erreur", erreur)
 
-# # Exception hierarchy
-# # https://docs.python.org/3/library/exceptions.html#exception-hierarchy
+#  Exception hierarchy
+#  https://docs.python.org/3/library/exceptions.html#exception-hierarchy
 
 # def divide(x, y):
     # try:

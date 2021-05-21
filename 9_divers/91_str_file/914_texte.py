@@ -24,9 +24,9 @@ lignes = texte.splitlines()
 print(lignes)
 print(type(lignes))
 
-# #for ligne in lignes:
-    # #if ligne:
-        # #print(ligne)
+# for ligne in lignes:
+    # if ligne:
+        # print(ligne)
 
 # Remplacement
 mon_texte = texte.replace("combien de ", "pauvres ")

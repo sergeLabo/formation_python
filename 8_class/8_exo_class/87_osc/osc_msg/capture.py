@@ -26,9 +26,9 @@ def get_points_blender(data):
 pts = []
 for data in js:
     p = data[0][:-1]
-    # #print(p)
+    # print(p)
     pt = get_points_blender(p)
-    # #print(pt)
+    # print(pt)
     pts.append(pt)
 
 print(pts)

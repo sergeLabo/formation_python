@@ -29,7 +29,7 @@ if bissex:
 else:
     print(f"{annee} n'est pas bissextile")
 
-# #if bissex:
-    # #print(annee, "est bissextile")
-# #else:
-    # #print(annee, "n'est pas bissextile")
+# if bissex:
+    # print(annee, "est bissextile")
+# else:
+    # print(annee, "n'est pas bissextile")

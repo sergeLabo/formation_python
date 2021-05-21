@@ -9,21 +9,21 @@ print("liste", liste)
 print(type(liste))
 # list = []
 
-# #for item in liste:
-    # #print(item)
+# for item in liste:
+    # print(item)
 
-# #mots = créer une liste avec des str
-# #for mot in  .....
+# mots = créer une liste avec des str
+# for mot in  .....
 
-# # depenses = créer une liste avec des float
-# #for ...
+#  depenses = créer une liste avec des float
+# for ...
 
 # Calculer la somme des depenses
 
-# #suite = [5, 6, 7, 21.3, "oh!", [3.21, 1478000]]
+# suite = [5, 6, 7, 21.3, "oh!", [3.21, 1478000]]
 
-# #liste.extend(suite)
+# liste.extend(suite)
 
-# #liste.append(3.14159)
+# liste.append(3.14159)
 
-# ## Ajouter des print()
+# # Ajouter des print()

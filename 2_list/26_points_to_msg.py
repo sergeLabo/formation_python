@@ -22,6 +22,6 @@ Consruire le msg avec les coordonnées empilées dans une seule liste
 msg = [0, 0, -1.56, ....., -1000, -1000]
 """
 
-# #msg = []
-# #for point in points:
-    # #if point:
+# msg = []
+# for point in points:
+    # if point:

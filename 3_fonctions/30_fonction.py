@@ -66,18 +66,18 @@ def my_add(a=1, b=1, c=0, d=0):
     resp = a + b + c + d
     return resp
 
-# #a = my_add(1, 2, 3, 4)
-# #a_faux = my_add(1, b=2, 3, 4)
+# a = my_add(1, 2, 3, 4)
+# a_faux = my_add(1, b=2, 3, 4)
 
-# #b = my_add(a=1, b=2, c=3, d=4)
-# #print(b)
+# b = my_add(a=1, b=2, c=3, d=4)
+# print(b)
 
-# #d = my_add(1, 2)
-# #print(d)
-# #e = my_add(1)
-# #print(e)
+# d = my_add(1, 2)
+# print(d)
+# e = my_add(1)
+# print(e)
 
-# ## Trouver une fonction avec des noms d'arguments abscons
+# # Trouver une fonction avec des noms d'arguments abscons
 def monthy_python(plus, moins):
     resp = plus * moins
     return resp

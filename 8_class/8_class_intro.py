@@ -12,9 +12,9 @@ Un objet a des méthodes et des attributs
 
 """
 
-# #print("\ndir(str)\n", dir(s), "\n"*3)
-# #s = s.encode()
-# #print(type(s), s, "\n"*3)
+# print("\ndir(str)\n", dir(s), "\n"*3)
+# s = s.encode()
+# print(type(s), s, "\n"*3)
 
 
 ### Construire une  class

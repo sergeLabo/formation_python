@@ -18,22 +18,22 @@ print("a - b =", s)
 t = a / b
 print(t)
 
-# #print(d + e)
-# #print(a + e)
+# print(d + e)
+# print(a + e)
 
-# #print(str(a) + e)
-# #print("essai", int(c))
+# print(str(a) + e)
+# print("essai", int(c))
 
-# #print(f"l'armée du salut est {e}")
+# print(f"l'armée du salut est {e}")
 
-# #u = True
-# #v = False
-# #ma_belle_variable = None
-# #print(u, v, ma_belle_variable)
+# u = True
+# v = False
+# ma_belle_variable = None
+# print(u, v, ma_belle_variable)
 
-# #a = 0
-# #A = 1
-# #print(a, A)
+# a = 0
+# A = 1
+# print(a, A)
 
-# #ma_var = "l'atelier"
-# #ma_var = 'l'atelier'
+# ma_var = "l'atelier"
+# ma_var = 'l'atelier'
