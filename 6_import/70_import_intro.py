@@ -14,15 +14,6 @@
 
 # sleep(10)
 
-"""
-Tous les modules de la bibliothèque standard
-
-https://docs.python.org/3/library/index.html
-
-https://docs.python.org/3/py-modindex.html
-
-"""
-
 # import os, sys
 # import time
 # import json
@@ -39,11 +30,3 @@ https://docs.python.org/3/py-modindex.html
 # from datetime import *
 
 # print(dir())
-
-"""
-Exemples
-https://github.com/sergeLabo/cubemos-skeleton/blob/main/get_skeleton/get_cubemos_skeleton.py
-
-https://github.com/python/cpython/blob/main/Lib/datetime.py
-
-"""

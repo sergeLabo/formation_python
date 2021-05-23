@@ -2,6 +2,10 @@
 
 Support pour atelier d'initiation python
 
+### Crédits
+* Le blog [sametmax.com](https://sametmax.com/) est la *référence*
+* [Apprenez à programmer en Python de Vincent Le Goff](http://user.oc-static.com/pdf/223267-apprenez-a-programmer-en-python.pdf)
+
 ### Installation
 
 Matériel exigé:
@@ -51,15 +55,12 @@ S'inscrire sur
 * https://replit.com
 * modération possible
 * gratuit pour moins de 50 élèves
-* pull d'un git possible
-
+* pull d'un git possible, ne pas faire de push
 * uncomment ctrl k / ctrl u
 * comment   ctrl k / ctrl c
+* l'éxcécution dans le shell permet d'excécuter n'importe quel fichier.
 
 ### 1 Variable bloc boucle
-Les exemples se pratiquent dans:
-
-* [L'interpréteur de python.org](https://www.python.org/shell/)
 
 ### 2 Liste
 

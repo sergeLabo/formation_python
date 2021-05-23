@@ -1,16 +1,3 @@
-s = """ Introduction aux class, appelée POO programation orientée objet
-
-Présentation des scripts mnist: numpy et keras
-
-Une class permet de créer des objets.
-Un objet est un machin:    une voiture, un moteur, une fleur,
-                            un amour, un modèle d'IA, un encodeur_decodeur ....
-
-Un objet a des méthodes et des attributs
-    - une méthode est une fonction propre (c'est le self !!!)  à l'objet
-    - un attribut est une variable qui appartient à cet objet
-
-"""
 
 # print("\ndir(str)\n", dir(s), "\n"*3)
 # s = s.encode()
