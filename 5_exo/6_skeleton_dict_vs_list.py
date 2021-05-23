@@ -49,7 +49,7 @@ PAIRS_MPI = {   "upper_arm.L": [5, 6],
 
 def get_points_blender(data):
     """ data = list(coordonnées des points empilés d'une frame
-            soit 3*18 items avec:
+            soit 3*18 soit 3*15 items avec:
             mutipliées par 1000
             les None sont remplacés par (-1000000, -1000000, -1000000)
             le numéro du body (dernier de la liste) doit être enlevé,
