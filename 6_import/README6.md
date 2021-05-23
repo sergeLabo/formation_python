@@ -14,6 +14,7 @@ import scipy
 import matplotlib
 
 # import des trucs spéciaux
+from called_file import print_merci
 
 # Pas du tout apprécié des bons programmeurs
 from time import *
@@ -44,7 +45,7 @@ La meilleure solution est de créer un [virtualenv](https://ressources.labomedia
 
 
 ### Export
-Sujet non étudié ! 
+Hors programme ! 
 
 ### Liens
 

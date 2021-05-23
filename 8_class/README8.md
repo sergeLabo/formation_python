@@ -23,11 +23,12 @@ Mais chaque point de vue possède des caractéristiques et des outils différent
 Ce que vous allez voir est ce qu’on appelle la programmation orientée objet, ou POO. C’est un simple point de vue, un outil, mais il est très utilisé en Python, Ruby ou Java.
 
 Quand vous avez appris la programmation, on vous a montré comment stocker des données dans des structures de données:
+
 * les listes
 * les chaînes
 * les entiers
 * les dictionnaires
-etc
+* etc ...
 
 Et on vous a montré comment créer un comportement pour votre programme en utilisant des mots clés, puis plus tard en utilisant des fonctions pour regrouper ces mots clés.
 
