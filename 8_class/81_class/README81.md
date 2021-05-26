@@ -83,6 +83,4 @@ Un attribut, c’est une variable attachée à un objet.
 
 Une instance d’une classe, c’est l’objet issu d’une classe.
 
-Un spermophile, c’est un animal dont la queue est assez courte et plus ou moins fournie. Il aime être à 4 pattes et mange parfois des glands. Ça n’a rien à voir, mais je me suis dit qu’il fallait faire passer l’info. Ah oui, et la cuniculture, c’est prendre soin d’un lapinou. La levrette, par contre, n’est pas la femelle du lièvre.
-
 Le vocabulaire en informatique, c’est primordial.

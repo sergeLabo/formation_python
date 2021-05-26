@@ -60,6 +60,25 @@ S'inscrire sur
 * comment   ctrl k / ctrl c
 * l'éxcécution dans le shell permet d'excécuter n'importe quel fichier.
 
+### Introduction
+
+__Python__ est un langage de programmation
+
+* créé en 1989 par Guido Van Rossum
+* libre
+* utilisé dans beaucoup de domaines: image, jeux, web, intelligence artificielle, calcul scientifique ...
+* utilisé pour créer des prototypes car il se programme très vite, 10 fois plus vite que du C
+* interprété
+* multi-paradigme
+* multiplateformes
+* il favorise la programmation impérative structurée, fonctionnelle et orientée objet
+
+Il est doté:
+
+* d'un typage dynamique fort
+* d'une gestion automatique de la mémoire par ramasse-miettes
+* d'un système de gestion d'exceptions
+
 ### 1 Variable bloc boucle
 
 ### 2 Liste
