@@ -3,7 +3,7 @@
 Pourquoi choisir un dictionnaire ou une liste, pour stocker ses données ?
 
 Cubemos utilise une 'norme' pour les numéros des articulations qui s'appelle
-MPI (Machusset ...) avec 15 points.
+MPI (Massachusetts ...) avec 15 points.
 
 Il y en a une autre COCO (Common Object in Context) avec 18 points.
 
@@ -81,7 +81,7 @@ def get_points_blender(data):
 
 
 def main(points):
-    """Mettre les coordonnées dans un dictionnaire human readable"""
+    """Mettre les coordonnées (blender) dans un dictionnaire human readable"""
 
     dico = {"tête": [x, y, z], ...........}
 
