@@ -4,9 +4,10 @@
 
 ### Exemples
 ``` python
-import os, sys
+import os, sys  # un seul package par ligne
 import time
 import json
+from math import sin, tan
 
 # import des lib à installer
 import numpy as np
@@ -34,18 +35,18 @@ Le dossier du fichier excécuté est dans la liste sys.path si le fichier est la
 Installation dans votre système, qui présente un risque de casser des choses
 
 ``` bash
-sudo pip3 install numpy 
+sudo pip3 install numpy
 ```
 Installation dans votre home, dans .local
 ``` bash
-python3.7 -m pip install numpy --user 
+python3.7 -m pip install numpy --user
 ```
 
 La meilleure solution est de créer un [virtualenv](https://ressources.labomedia.org/virtualenv) pour chaque projet.
 
 
 ### Export
-Hors programme ! 
+Hors programme !
 
 ### Liens
 
@@ -61,4 +62,3 @@ Exemples
 [get_cubemos_skeleton.py](https://github.com/sergeLabo/cubemos-skeleton/blob/main/get_skeleton/get_cubemos_skeleton.py)
 
 [datetime.py](https://github.com/python/cpython/blob/main/Lib/datetime.py)
-
