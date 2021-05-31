@@ -10,6 +10,8 @@ def divide(x, y):
 
     return result
 
-result = divide(1, 0)
-if result:
-    print("Tchernobyl explose")
+resp = divide(1, 0)
+print("Tout va bien !", resp)
+
+resp = divide("1", 0)
+print("Tout va bien !", resp)

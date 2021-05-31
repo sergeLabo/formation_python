@@ -1,6 +1,6 @@
 
-# print(dir())
-# print(__name__)
+print("dir() de called_file.py =", dir())
+print("__name__ de called_file.py =", __name__)
 
 def print_merci():
     print("ce cours de python est génial")

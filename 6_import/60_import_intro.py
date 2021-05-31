@@ -30,3 +30,6 @@
 # from datetime import *
 
 # print(dir())
+
+import sys
+print(sys.path)

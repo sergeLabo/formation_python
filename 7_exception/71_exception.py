@@ -8,16 +8,13 @@ try:
 except:
     infini = "infini"
 
-# print(infini)
+print("L'infini est ", infini)
 
+# Exemple d'exceptions
 # while True print('Hello world')
 # d = 10 * (1/0)
 # e = 4 + spam*3
 # f = '2' + 2
-
-
-#  Exception hierarchy
-#  https://docs.python.org/3/library/exceptions.html#exception-hierarchy
 
 def divide(x, y):
     try:
@@ -41,12 +38,13 @@ def divide_toto(x, y):
         print("division by zero!")
     except:
         print("Pas de résultat")
-divide_toto(2, 1)
+
+# divide_toto(2, 1)
 
 try:
-    a = 1
+    a = 10
     b = 1/0
 except:
     pass
 
-print("a final =", a)
+# print("a final =", a)
