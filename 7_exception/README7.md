@@ -28,6 +28,10 @@ except:
 print(infini)
 ```
 
+### Liste des exceptions standards
+
+* [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html)
+
 ### Il faut bien traiter les erreurs
 
 Excécuter les scripts
@@ -35,9 +39,3 @@ Excécuter les scripts
 * 72_try_dangereux.py
 * 73_
 * 74_
-
-### Raise
-
-[raising-exceptions](https://docs.python.org/3/tutorial/errors.html#raising-exceptions)
-
-Le prof doit approfondir la question

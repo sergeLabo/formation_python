@@ -43,8 +43,9 @@ def divide_toto(x, y):
 
 try:
     a = 10
-    b = 1/0
+    oui = 1/0
 except:
     pass
 
 # print("a final =", a)
+print(oui)

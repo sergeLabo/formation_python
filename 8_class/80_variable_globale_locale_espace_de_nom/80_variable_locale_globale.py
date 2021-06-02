@@ -6,25 +6,25 @@ def simple():
 
 simple()
 
-# #def test():
-    # #variable = "tu vas te faire avoir"
-    # #print("dans test, variable =", variable)
+# def test():
+    # variable = "tu vas te faire avoir"
+    # print("dans test, variable =", variable)
 
-# #print("dans le script, variable =", variable)
-# #test()
+# print("dans le script, variable =", variable)
+# test()
 
-# #variable = "python"
-# #def danger():
-    # #variable = "danger"
-    # #print("dans danger, variable =", variable)
+# variable = "python"
+# def danger():
+    # variable = "danger"
+    # print("dans danger, variable =", variable)
 
-# #danger()
-# #print("dans le script, variable =", variable)
+# danger()
+# print("dans le script, variable =", variable)
 
-# #def pertinent():
-    # #global variable
-    # #variable = "nouvelle valeur"
-    # #print("dans pertinent, variable =", variable)
+# def pertinent():
+    # global variable
+    # variable = "nouvelle valeur"
+    # print("dans pertinent, variable =", variable)
 
-# #pertinent()
-# #print("dans le script, variable =", variable)
+# pertinent()
+# print("dans le script, variable =", variable)

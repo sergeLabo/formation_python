@@ -13,5 +13,6 @@ def divide(x, y):
 resp = divide(1, 0)
 print("Tout va bien !", resp)
 
+print("\n\n")
 resp = divide("1", 0)
-print("Tout va bien !", resp)
+print("Dernier essai !", resp)
