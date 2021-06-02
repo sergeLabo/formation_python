@@ -18,3 +18,9 @@ def create_directory(directory):
     except:
         print("Erreur avec {}".format(directory))
         os._exit(0)
+
+create_directory("test")
+
+ici = os.getcwd()
+print(ici)
+create_directory(ici + "/test")

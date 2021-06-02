@@ -13,6 +13,7 @@ import datetime
 time_1 = time.time()
 time_2 = datetime.time()
 ```
+
 time_1 et time_2 ne sont pas la même chose:
 
 time_1 est un élément de l'ensemble time (=le module time)
@@ -32,4 +33,3 @@ Ce qui compte dans l'effort, c'est avant tout l'action, plutôt que le résultat
 __Ce n'est pas le mal qu'on s'est donné qui compte, mais le résultat.__
 
 __Le chemin pour atteindre un résultat doit être décidé en fonction du contexte.__
-
