@@ -1,3 +1,6 @@
+
+#### Jeu du pi
+
 from pi import pi as pipi
 
 # Toutes les variables globales en majuscule

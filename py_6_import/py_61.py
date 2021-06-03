@@ -1,7 +1,7 @@
 
 ### Imports locaux
 
-from fichier_dans_le_dossier import fonction_qui_retourne_l_argument
+from py_61_fichier_dans_le_dossier import fonction_qui_retourne_l_argument
 
 
 # toto = fonction_qui_retourne_l_argument("hello world")

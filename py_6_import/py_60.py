@@ -16,21 +16,6 @@
 
 # sleep(10)
 
-# import os, sys
-# import time
-# import json
-
-# # import lib à installer
-# import numpy as np
-# import scipy
-# import matplotlib
-
-# import truc spéciaux
-
-# Pas du tout apprécié des bons programmeurs
-# from time import *
-# from datetime import *
-
 # print(dir())
 
 import sys
