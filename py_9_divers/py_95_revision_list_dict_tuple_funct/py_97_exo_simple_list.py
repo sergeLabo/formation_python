@@ -19,10 +19,10 @@ for b in a:
 points = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15]]
 
 for point in points:
-    print(point)
+    print("point", point)
 
 for i in range(5):
-    print(points[i])
+    print(i, points[i])
 
 moyenne = (2 + 5 + 8 + 11 + 14)/5
 print("moyenne facile =", moyenne)
