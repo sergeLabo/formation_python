@@ -1,3 +1,5 @@
+
+### Import
 from called_file import print_merci
 
 print_merci()
@@ -8,6 +10,6 @@ print_merci()
 # from called_file import print_merci as p
 # p()
 
-from yet_another_called_file import print_merci as toto
+from yet_another_called_file import print_merci as pm
 
-toto()
+pm()

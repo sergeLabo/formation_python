@@ -1,4 +1,6 @@
 
+#### Variable globale locale
+
 variable = "python"
 
 def simple():

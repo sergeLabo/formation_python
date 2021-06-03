@@ -1,7 +1,12 @@
+
+#### Exception intro
+
 from time import sleep
 
 a = 1
 b = 0
+
+infini = a / b
 
 try:
     infini = a / b
