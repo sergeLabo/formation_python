@@ -9,11 +9,13 @@ class Skeleton:
         self.nb_coord = nb_coord
         self.nb_points = nb_points
         self.points = None
-        self.average = 0
+        self.average = None
 
     def update_average(self):
         if self.nb_points == 1 and self.nb_coord == 3:
-            self.average = (points[0][0] + points[0][1] + points[0][2])/3
+            self.average = (self.points[0][0] +\
+                            self.points[0][1] +\
+                            self.points[0][2])/3
         else:
             self.average = None
 

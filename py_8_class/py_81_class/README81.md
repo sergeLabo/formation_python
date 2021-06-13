@@ -84,3 +84,7 @@ Un attribut, c’est une variable attachée à un objet.
 Une instance d’une classe, c’est l’objet issu d’une classe.
 
 Le vocabulaire en informatique, c’est primordial.
+
+[sametmax.com](https://sametmax.com/le-guide-ultime-et-definitif-sur-la-programmation-orientee-objet-en-python-a-lusage-des-debutants-qui-sont-rassures-par-les-textes-detailles-qui-prennent-le-temps-de-tout-expliquer-partie-1/) le guide ultime et definitif sur la programmation orientee objet en python a lusage des debutants qui sont rassures par les textes detailles qui prennent le temps de tout expliquer
+
+

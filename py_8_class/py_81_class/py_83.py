@@ -1,29 +1,20 @@
 
+# Notation d'élèves
 
-class Contact:
+def get_moyenne(notes):
+    moyenne = 10
+    return moyenne
 
-    def __init__(self, name):
-        # self.name = name
-        self.phone = None
 
-    def set_phone(self, phone):
-        self.phone = phone
+def get_level(moyenne):
+    level = "C"
+    return level
 
-    def get_phone(self):
-        return self.phone
 
-c = Contact("toto")
-print("Le numéro de toto est :", c.get_phone())
-print("Mon nom est:", c.name)
+toi = [8, 10, 12]
 
-# copains = ["Emmanuel", "Jean"]
-# mon_carnet = {}
-# for copain in copains:
-    # mon_carnet[copain] = Contact(copain)
-# print("mon_carnet", mon_carnet)
+toi_moyenne = get_moyenne(toi)
+print(toi_moyenne)
 
-# print(mon_carnet["Jean"])
-
-# mon_carnet['Emmanuel'].set_phone("djembé")
-
-# print("Le numéro de Emmanuel est", mon_carnet['Emmanuel'].get_phone())
+toi_level = get_level(toi_moyenne)
+print(toi_level)

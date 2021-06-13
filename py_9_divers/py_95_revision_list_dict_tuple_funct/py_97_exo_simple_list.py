@@ -28,6 +28,8 @@ moyenne = (2 + 5 + 8 + 11 + 14)/5
 print("moyenne facile =", moyenne)
 
 # Créer une fonction pour calculer la moyenne des y (moyenne de la profondeur)
+# Il y a toujours 5 points de 3 coordonnées dans points
+
 
 
 # Créer une/des fonctions pour incrémenter de 1 chaque coordonnées
