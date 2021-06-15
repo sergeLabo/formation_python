@@ -1,7 +1,8 @@
 """
-Créer une class pour créer des objets qui seront des instance de cette class,
+Créer une class pour créer des objets qui seront des instance de cette class.
 
 Nous recevons des valeurs en OSC, par exemple une position en profondeur,
+la distance de la personne par rapport à la caméra:
     soit une seule valeur
     ces valeurs sont soit int ou float
     quand la pile est pleine faire la moyenne
