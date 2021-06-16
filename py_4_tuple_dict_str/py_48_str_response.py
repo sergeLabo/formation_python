@@ -1,3 +1,4 @@
+# # py_48_str_response.py
 # Star pattern: dessiner ces étoiles dans le terminal
 
 """

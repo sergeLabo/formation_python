@@ -20,16 +20,27 @@ time_1 est un élément de l'ensemble time (=le module time)
 
 time_2 est un élément de l'ensemble datetime (=le module datetime)
 
-### Variable locale / globale
+## Variable locale / globale
+
+### Variable locale
+
+Variable utilisée à l'intérieur d'une fonction
 
 ### Variable globale
+
+Variable utilisée à l'intérieur d'un fichier
 
 Elles sont possibles, nécessaires, elles sont en tout majuscules
 
 Elles ne doivent pas être modifiées, si elles sont modifiées, ce doit être intelligement.
 
-Ce qui compte dans l'effort, c'est avant tout l'action, plutôt que le résultat. Ludwig Van.
+__Ce qui compte dans l'effort, c'est avant tout l'action, plutôt que le résultat. Ludwig Van.__
 
 __Ce n'est pas le mal qu'on s'est donné qui compte, mais le résultat.__
 
-__Le chemin pour atteindre un résultat doit être décidé en fonction du contexte.__
+
+### Fichiers
+
+* py_80.py Variable globale locale
+* py_81.py Espace de nom time, datetime
+* py_82.py Jeu du PI

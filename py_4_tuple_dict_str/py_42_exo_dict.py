@@ -1,3 +1,4 @@
+# # py_42_exo_dict.py
 """ Excercice sur les dict
 
 pierre = ["DUPONT", 31, "marseille", False]

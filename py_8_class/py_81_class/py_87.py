@@ -1,6 +1,20 @@
+# # py_87.py
 # Jeu du 421
 
 # jeter 3 ou 2 ou 1 dés
+
+# Supprimer la fonction inutilisée
+# Créer une class
+# Faire: if name main, run()
+# Essayer d'améliorer la répétition de
+"""
+        if 4 in lancer:
+            if not good_421[0]:
+                result.append(4)
+                nb_des_a_jeter -= 1
+                good_421[0] = 1
+"""
+
 
 from time import sleep
 from random import randint

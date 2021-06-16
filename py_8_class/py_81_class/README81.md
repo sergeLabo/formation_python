@@ -2,7 +2,7 @@
 
 ## POO
 
-Introduction à la POO programation orientée objet.
+Introduction à la POO programation orientée objet, très inspiré par sametmax, et même copier !
 
 ### Pourquoi utiliser des objets ?
 
@@ -61,19 +61,19 @@ Un objet a des méthodes et des attributs
     - une méthode est une fonction propre  à l'objet
     - un attribut est une variable qui appartient à cet objet
 
-Qu’est-ce qu’un objet
+Qu’est-ce qu’un objet ?
 
 Un objet est un… truc. Un machin. Un bidule.
 
-Ça peut vous paraître une définition floue, mais c’est parce que c’est exactement ce que peut être un objet: n’importe quoi que vous décidiez de coder. L’objet est un moyen de dire à la machine : “ce < entrez_ici_un_nom_de_truc > possède telle donnée, et fait telle chose avec”.
+Ça peut vous paraître une définition floue, mais c’est parce que c’est exactement ce que peut être un objet: n’importe quoi que vous décidiez de coder. L’objet est un moyen de dire à la machine : “ce __entrez_ici_un_nom_de_truc__ possède telle donnée, et fait telle chose avec”.
 
 En Python, absolument tout est un objet : une chaîne, un entier, un dictionnaire, une liste, une fonction… Vous avez donc manipulé des objets sans le savoir. Maintenant vous allez créer les vôtres.
 
 Créer des objets se fait en deux étapes: décrire à quoi ressemble votre objet, et demander à l’ordinateur d’utiliser cette description pour le fabriquer.
 
-### Résumé final par sametmax
+### Résumé final
 
-La classe, c’est un plan.
+La class, c’est un plan.
 
 L’objet, c’est ce qu’on crée avec le plan.
 

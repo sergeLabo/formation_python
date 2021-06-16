@@ -1,3 +1,4 @@
+# # py_81.py
 
 #### Class intro
 
@@ -29,3 +30,5 @@ class MyTest:
 
 mt = MyTest()
 mt.my_test()
+# Que contient un objet ?
+print(dir(mt))

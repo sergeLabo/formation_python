@@ -19,6 +19,7 @@ bin/
 # Blender
 *.blend1
 
+dossier_du_prof/
 
 # Distribution / packaging
 .Python

@@ -1,5 +1,6 @@
+# # py_74.py
 
-#### Exemples courrants
+#### Utilisation courrante
 
 def divide(x, y):
     result = None

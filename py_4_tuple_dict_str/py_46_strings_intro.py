@@ -1,3 +1,4 @@
+# # py_46_strings_intro.py
 
 string = "Maître Corbeau sur un arbre perché, tenait en son bec un fromage."
 print(len(string), string[3], string[-3])

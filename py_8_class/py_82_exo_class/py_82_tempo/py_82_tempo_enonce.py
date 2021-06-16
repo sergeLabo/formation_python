@@ -1,3 +1,4 @@
+# # py_82_tempo_enonce.py
 
 """
 Class utilisable pour des tempo et compteur dans Blender

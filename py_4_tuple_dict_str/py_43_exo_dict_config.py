@@ -1,3 +1,4 @@
+# # py_43_exo_dict_config.py
 """
 Récupérer dans config
 les valeurs de:

@@ -4,7 +4,6 @@
 
 ### Exemple
 
-#### Exemple d'erreur
 ``` python
 print(a)
 ```
@@ -16,7 +15,7 @@ NameError: name 'a' is not defined
 ```
 L'erreur est un __NameError__
 
-#### Comment cacher les erreurs ?
+### Comment cacher les erreurs ?
 
 ``` python
 a = 1
@@ -35,7 +34,7 @@ print(infini)
 ### Il faut bien traiter les erreurs
 
 Excécuter les scripts
-
-* 72_try_dangereux.py
-* 73_
-* 74_
+* py_71.py Exception intro
+* py_72_.py Try dangereux.py
+* py_73_.py Exemple propre create_directory()
+* py_74_.py Utilisation courrante

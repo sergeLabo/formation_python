@@ -62,3 +62,10 @@ Exemples
 [get_cubemos_skeleton.py](https://github.com/sergeLabo/cubemos-skeleton/blob/main/get_skeleton/get_cubemos_skeleton.py)
 
 [datetime.py](https://github.com/python/cpython/blob/main/Lib/datetime.py)
+
+* py_60.py Import intro
+* py_61.py Imports locaux
+* py_61_fichier_dans_le_dossier.py Appelé par py_61.py
+* py_62.py Introduction à if ``__name__ == "__main__"``:
+* py_63.py Import depuis un fichier à coté
+* py_64.py Import depuis un dossier dans le dossier du script
