@@ -17,10 +17,10 @@ except:
 print("L'infini est ", infini)
 
 # Exemple d'exceptions
-# while True print('Hello world')
-# d = 10 * (1/0)
-# e = 4 + spam*3
-# f = '2' + 2
+# #while True print('Hello world')
+# #d = 10 * (1/0)
+# #e = 4 + spam*3
+# #f = '2' + 2
 
 def divide(x, y):
     try:
@@ -54,4 +54,4 @@ except:
     pass
 
 # print("a final =", a)
-print(oui)
+# #print(oui)

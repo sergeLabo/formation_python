@@ -31,6 +31,7 @@ print(sys.path)
 
 Le dossier du fichier excécuté est dans la liste sys.path si le fichier est lancé depuis ce dossier.
 
+
 ### Installation d'un module spécifique
 Installation dans votre système, qui présente un risque de casser des choses
 
@@ -69,3 +70,5 @@ Exemples
 * py_62.py Introduction à if ``__name__ == "__main__"``:
 * py_63.py Import depuis un fichier à coté
 * py_64.py Import depuis un dossier dans le dossier du script
+* called_file.py
+* yet_another_called_file.py

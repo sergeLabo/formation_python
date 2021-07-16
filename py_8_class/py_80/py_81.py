@@ -2,16 +2,16 @@
 
 #### Espace de nom
 
-# import time
-# import datetime
+import time
+import datetime
 
-# time_1 = time.time()
-# time_2 = datetime.time()
+time_1 = time.time()
+time_2 = datetime.time()
 
-# print("dans time:", time_1)
-# print("dans datetime:", time_2)
+print("dans time:", time_1)
+print("dans datetime:", time_2)
 
-from time import time
-from datetime import time
+# #from time import time
+# #from datetime import time
 
-print(time())
+# #print(time())

@@ -7,5 +7,5 @@ from called_file import print_merci
 
 ### Le fichier appelé est excécuté
 
-sleep(5)
+sleep(2)
 print_merci()

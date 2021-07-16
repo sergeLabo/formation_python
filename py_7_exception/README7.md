@@ -34,6 +34,7 @@ print(infini)
 ### Il faut bien traiter les erreurs
 
 Excécuter les scripts
+
 * py_71.py Exception intro
 * py_72_.py Try dangereux.py
 * py_73_.py Exemple propre create_directory()

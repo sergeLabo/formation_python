@@ -15,11 +15,9 @@ def print_pi(pi):
     print(pi)
 
 def print_PI():
-    """pi est une variable locale"""
     print(PI)
 
 def print_PI():
-    """pi est une variable locale"""
     global PI
     print(PI)
 
