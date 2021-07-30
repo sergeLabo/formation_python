@@ -14,7 +14,8 @@ config = {  "network":  {
                         }
             }
 
-# Construire une liste avec les valeurs
+# Mettre l'adresse dans un tuple
+# Quelle est la taille de l'image ?
 
 ###### Exercise 2
 contact = {
@@ -34,15 +35,15 @@ Itsi_bitsi_petit_bikini-Dalida.mid
 """
 #       [[bank, instrument], is_drums, name]
 liste = [
-        [[0, 113], True, "DRUM R-8            "],
-        [[0, 3], False, "BASS S-330          "],
-        [[0, 64], False, "FANTASY D-110       "],
-        [[0, 79], False, "BRASS D-50          "],
-        [[0, 61], False, "PIANO MKS-20        "],
-        [[0, 11], False, "GUITARE PROTEUS     "],
-        [[0, 7], False, "GUITARE PROTEUS     "],
-        [[0, 0], False, "Mel"],
-        [[8, 117], True, "tom10               "]
+        [[0, 113], True,  "DRUM R-8            "],
+        [[0, 3],   False, "BASS S-330          "],
+        [[0, 64],  False, "FANTASY D-110       "],
+        [[0, 79],  False, "BRASS D-50          "],
+        [[0, 61],  False, "PIANO MKS-20        "],
+        [[0, 11],  False, "GUITARE PROTEUS     "],
+        [[0, 7],   False, "GUITARE PROTEUS     "],
+        [[0, 0],   False, "Mel                 "],
+        [[8, 117], True,  "tom10               "]
         ]
 
 ###### Exercise 4
@@ -52,8 +53,6 @@ b) Calculate the average of all the gadgets.
 """
 gadgets = ["Mobile", "Laptop", 100, "Camera", 310.28, "Speakers", 27.00,
             "Television", 1000, "Laptop Case", "Camera Lens"]
-
-
 
 
 ###### Exercise 5

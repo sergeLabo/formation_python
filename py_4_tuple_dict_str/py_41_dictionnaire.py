@@ -1,4 +1,5 @@
 # # py_41_dictionnaire.py
+
 """ Introduction aux dictionnaires
 
 dictionnaire = ensemble d'éléments

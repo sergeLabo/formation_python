@@ -1,7 +1,7 @@
 
 import cv2
 
-img = cv2.imread('./logo_labomedia.png')
+img = cv2.imread('./logo-labomedia.png')
 
 while 1:
 

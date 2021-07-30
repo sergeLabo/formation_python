@@ -9,6 +9,7 @@ address = (ip, port)
 # Les virgules permettent toujours d'aller à la ligne
 address = (ip,
            port)
+
 """
 En mathématiques, si n est un entier naturel, alors un n-uplet ou n-uple est une
 collection ordonnée de n objets, appelés « composantes » ou « éléments » ou
