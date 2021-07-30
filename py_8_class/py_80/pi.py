@@ -1,4 +1,4 @@
 # # pi.py
 
-def pi():
+def return_mauvaise_blague():
     return "Mauvaise blague"

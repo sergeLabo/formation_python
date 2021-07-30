@@ -4,13 +4,6 @@
 
 Le message sera envoyé avec:
     osc_client.send('/points', msg)
-
-le chien de Emmanuel: Emmanuel's dog
-
-mais cette fonction n'est pas implémentée ici,
-vous construisez le msg seulement.
-
-Faire des plier déplier.
 """
 
 # il y a toujours 8 points dans points: len(points) = 8

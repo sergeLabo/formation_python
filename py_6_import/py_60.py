@@ -16,7 +16,8 @@ import time
 
 # #sleep(1)
 
-# #print(dir())
-
-# #import sys
-# #print(sys.path)
+print(dir())
+print("\n"*5)
+import sys
+for dossier in sys.path:
+    print(dossier)

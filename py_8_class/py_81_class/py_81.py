@@ -2,7 +2,7 @@
 
 #### Class intro
 
-### Construire une  class
+# #### Construire une  class
 class Subliminale:
     pass
 
@@ -11,24 +11,24 @@ print(f"Le type de s = Subliminale() est {type(s)}")
 print("dir(s)", dir(s))
 print("\n\n")
 
-class Minimale:
-    print("Un objet Minimale créé !")
+
+# #class Minimale:
+    # #print("Un objet Minimale créé !")
+
+# #m = Minimale()
+# #print("type de m", type(m))
+# #print("m", m)
+# #print("dir(m)", dir(s))
+# #print("\n\n")
 
 
-m = Minimale()
-print("m", m)
-print("\n\n")
+# #class MyTest:
 
+    # #def my_print(self):  # propre à l'objet
+        # #print("Premier test")
 
+# #mt = MyTest()
+# #mt.my_print()  # mt de my_print()
 
-class MyTest:
-
-    def my_test(self):  # propre à l'objet
-        """Pourquoi self?"""
-        print("Premier test")
-
-
-mt = MyTest()
-mt.my_test()
-# Que contient un objet ?
-print(dir(mt))
+# ## Que contient un objet ?
+# #print(dir(mt))

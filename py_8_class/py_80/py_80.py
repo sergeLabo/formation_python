@@ -2,12 +2,12 @@
 
 #### Variable globale locale
 
-variable = "python"
+# #variable = "python"
 
-def simple():
-    print("dans simple, variable =", variable)
+# #def simple():
+    # #print("dans simple, variable =", variable)
 
-simple()
+# #simple()
 
 # #def test():
     # #variable = "tu vas te faire avoir"
@@ -16,7 +16,7 @@ simple()
 # #print("dans le script, variable =", variable)
 # #test()
 
-# #variable = "python"
+# #variable = "autre valeur"
 # #def danger():
     # #variable = "danger"
     # #print("dans danger, variable =", variable)
@@ -24,10 +24,14 @@ simple()
 # #danger()
 # #print("dans le script, variable =", variable)
 
-# #def pertinent():
-    # #global variable
-    # #variable = "nouvelle valeur"
-    # #print("dans pertinent, variable =", variable)
+VARIABLE = "python"
 
-# #pertinent()
-# #print("dans le script, variable =", variable)
+def pertinent():
+    global VARIABLE
+    VARIABLE = "npoveau"
+    variable = "machin"
+    print("dans pertinent, variable locale =", variable)
+    print("dans pertinent, variable globale =", VARIABLE)
+
+pertinent()
+print("dans le script, variable =", VARIABLE)

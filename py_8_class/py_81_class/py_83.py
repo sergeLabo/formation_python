@@ -2,20 +2,31 @@
 
 # Notation d'élèves
 
+
 def get_moyenne(notes):
-    moyenne = 10
+    total = 0
+    for note in notes:
+        total += note
+    moyenne = total/len(notes)
     return moyenne
 
-
 def get_level(moyenne):
-    level = "C"
+    if moyenne <= 4:
+        level = "E"
+    elif 4 < moyenne <= 8:
+        level = "D"
+    elif 8 < moyenne < 12:
+        level = "C"
+    else:
+        level = "A"
     return level
 
+eleves = {"toto": [8, 10, 12],
+          "tata": [0, 3, 18, 15]}
 
-toi = [8, 10, 12]
+m = get_moyenne(eleves["toto"])
+print(m)
 
-toi_moyenne = get_moyenne(toi)
-print(toi_moyenne)
-
-toi_level = get_level(toi_moyenne)
-print(toi_level)
+"""
+Créer une class GetMoyenneLevel
+"""

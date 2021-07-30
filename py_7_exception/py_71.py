@@ -4,17 +4,16 @@
 
 from time import sleep
 
-a = 1
-b = 0
+# #a = 1
+# #b = 0
 
-infini = a / b
+# #try:
+    # #infini = a / b
+    # #print("ok")
+# #except:
+    # #infini = "infini"
 
-try:
-    infini = a / b
-except:
-    infini = "infini"
-
-print("L'infini est ", infini)
+# #print("L'infini est ", infini)
 
 # Exemple d'exceptions
 # #while True print('Hello world')
@@ -23,27 +22,36 @@ print("L'infini est ", infini)
 # #f = '2' + 2
 
 def divide(x, y):
+    # #result = None
     try:
         result = x / y
     except ZeroDivisionError:
         print("division by zero!")
+        result = None
     except:
         print("Pas de résultat")
+        result = None
+    return result
 
-# print("\n    divide(2, 1)")
-# divide(2, 1)
-# print("\n    divide(2, 0)")
-# divide(2, 0)
-# print('\n    divide("2", "1")')
-# divide("2", "1")
+# #print("\n    divide(2, 1)")
+# #d = divide(2, 1)
+# #print(d)
 
-def divide_toto(x, y):
-    try:
-        result = toto / y
-    except ZeroDivisionError:
-        print("division by zero!")
-    except:
-        print("Pas de résultat")
+# #print("\n    divide(2, 0)")
+# #d = divide(2, 0)
+# #print(d)
+
+# #print('\n    divide("2", "1")')
+# #d = divide("2", "1")
+# #print(d)
+
+# #def divide_toto(x, y):
+    # #try:
+        # #result = toto / y
+    # #except ZeroDivisionError:
+        # #print("division by zero!")
+    # #except:
+        # #print("Pas de résultat")
 
 # divide_toto(2, 1)
 
@@ -53,5 +61,5 @@ try:
 except:
     pass
 
-# print("a final =", a)
-# #print(oui)
+print("a final =", a)
+print(oui)

@@ -2,8 +2,8 @@
 
 ### Explicaions
 * py_81.py Introduction
-* py_82.py Contact. Exemple courrant mais qui n'est jamais clair ! Inroduction à _ _init__()
-* py_83.py et py_83.py  Notation. Comment construire sa class avec du code existant.
+* py_82.py bicyclette
+* py_83.py et py_83_bis.py  Notation. Comment construire sa class avec du code existant.
 * py_84.py Bicycle. Méthodes vs fonction, attribut variable locale.
 
 

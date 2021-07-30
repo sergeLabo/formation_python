@@ -2,11 +2,11 @@
 
 #### Espace de nom
 
-import time
-import datetime
+from time import time as t
+from datetime import time as dt
 
-time_1 = time.time()
-time_2 = datetime.time()
+time_1 = t()
+time_2 = dt()
 
 print("dans time:", time_1)
 print("dans datetime:", time_2)

@@ -38,3 +38,14 @@ print(t)
 
 # ma_var = "l'atelier"
 # ma_var = 'l'atelier'
+
+
+# Mots réservés Python
+"""
+abs
+int
+float
+str
+for
+while
+"""

@@ -10,7 +10,6 @@
     Travailler à plusieurs.
     Ces bouts de code peuvent être dans des fichiers différents, ce qui est
         important quand le code est très long.
-    Pour éviter les problèmes avec les variables globales.
     Pour pouvoir réutiliser des bouts de codes.
 """
 
@@ -35,27 +34,25 @@ print("1 + 1 peuvent faire", 1 + a)
 Définition:
 
 a et b sont des arguments
-les noms des arguments sont à votre convenance
-les arguments peuvent avoir des valeurs par défaut
-si une fonction est appelée avec un nom d'argument,
+Les noms des arguments sont à votre convenance.
+Les arguments peuvent avoir des valeurs par défaut.
+Si une fonction est appelée avec un nom d'argument,
 les suivants doivent aussi être appelés avec leur nom
 
 Une fonction sans return retourne None
-
-La philosophie du codeur:
-
-    Une fonction fait une chose.
 """
 
 """ Exemple sans return """
 
-from datetime import datetime
+# from datetime import datetime
 
-def quelle_heure_est_il():
-    print(datetime.now())
+# def quelle_heure_est_il():
+    # print("maintenant =", datetime.now())
 
-print("il est", quelle_heure_est_il())
-quelle_heure_est_il()
+# print("il est", quelle_heure_est_il())
+
+
+
 
 """Arguments"""
 

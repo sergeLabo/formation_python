@@ -54,11 +54,12 @@ S'inscrire sur
 
 * https://replit.com
 * modération possible
-* gratuit pour moins de 50 élèves
-* pull d'un git possible, ne pas faire de push
+* gratuit pour moins de 10 élèves, pendant 3 mois
+* pull d'un git possible, ne pas faire de push, mais c'est bien buggé
 * uncomment ctrl k / ctrl u
 * comment   ctrl k / ctrl c
 * l'éxcécution dans le shell permet d'excécuter n'importe quel fichier.
+* replit liste tous les packages utilisé dans tous les scripts, puis les installe. 
 
 ### Introduction
 
@@ -71,7 +72,7 @@ __Python__ est un langage de programmation
 * interprété
 * multi-paradigme
 * multiplateformes
-* il favorise la programmation impérative structurée, fonctionnelle et orientée objet
+* la programation peut être structurée, fonctionnelle, orientée objet ...
 
 Il est doté:
 

@@ -14,8 +14,13 @@ def test(a):
         return 0
     print("fin")
 
+print("test de 1")
 test(1)
+
+print("test de -1")
 test(-1)
+
+# Modifier print("a < 0") par print(a, "est < 0")
 
 # Fonctions prédéfinies
 # print( abs(-20),

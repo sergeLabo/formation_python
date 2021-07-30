@@ -7,7 +7,10 @@ liste[1] = 2
 liste[0] = 1
 
 print("liste", liste)
-print(type(liste))
+print("type(liste) =", type(liste))
+print("dir(liste) =", dir(liste))
+
+
 # list = []
 
 # for item in liste:

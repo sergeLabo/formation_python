@@ -25,5 +25,18 @@ def create_directory(directory):
 create_directory("test")
 
 ici = os.getcwd()
-print(ici)
+# #print("ce script est:", ici)
 create_directory(ici + "/test")
+
+# #un_string = "toto %s %f"
+a = 1
+un_string = "toto_" + str(a) + "_fin"
+print(un_string)
+un_string = "toto_{}_fin".format(a)
+print(un_string)
+b = 0
+# #un_string = "toto_{1}_fin{0}".format(b, a)
+# #print(un_string)
+
+un_string = f"toto_{a}_fin"
+print(un_string)

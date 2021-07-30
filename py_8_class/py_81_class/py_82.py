@@ -1,66 +1,33 @@
 # # py_82.py
 
-# Sans class
-# dictionnaire
-contact = {
-            "manu": {
-                    "name": "manu",
-                    "tel": "01 02 03 "},
-            "bj": {
-                    "name": "benj",
-                    "adresse": "labomedia" },
-            }
 
-contact["serge"] = {"hobby", "python"}
+class Bicyclette:
+    """Un vélo"""
 
-for k, v in contact.items():
-    print("qui:", k, ", data", v)
-print("\n\n")
+    def __init__(self, color, genre):
 
+        # self.color = color
+        self.col = color
 
-# BDD
-# import sqlite
+        self.genre = genre
 
-# Object
-class Contact:
+        self.pierre_soulages()
 
-    def __init__(self, name):
-        # self.name = name
-        self.phone = None
+    def pierre_soulages(self):
+        self.col += " foncé"
 
-    def set_phone(self, phone):
-        self.phone = phone
+    def je_roule_avec_mon_velo
 
-    def get_phone(self):
-        return self.phone
-
-c = Contact("toto")
-print("Le numéro de toto est :", c.get_phone())
-# #print("Mon nom est:", c.name) # c'est fait exprès
+def pierre_soulages(color):
+    return color + " clair"
 
 
-# Object dans un dict
-# emmanuel = Contact("Emmanuel")
-# jean = Contact("Jean")
+ma_bicyclette = Bicyclette("rouge", "vtt")
+print(f"la couleur de mon velo rouge est {ma_bicyclette.col}")
+print(f"il est du type {ma_bicyclette.genre}")
 
-# Objects dans une liste
-# mes_contacts = [emmanuel, jean]
+# c = pierre_soulages("rose")
+# print("pierre_soulages(rose) =", c)
 
-# Objects dans un dictionnaire
-# mon_carnet = {  "emmanuel": emmanuel,
-                # "jean":     jean}
-
-# print("mon_carnet", mon_carnet)
-
-# Plus structuré
-# copains = ["Emmanuel", "Jean"]
-# mon_carnet = {}
-# for copain in copains:
-    # mon_carnet[copain] = Contact(copain)
-# print("mon_carnet", mon_carnet)
-
-# print(mon_carnet["Jean"])
-
-# mon_carnet['Emmanuel'].set_phone("djembé")
-
-# print("Le numéro de Emmanuel est", mon_carnet['Emmanuel'].get_phone())
+# ma_bicyclette.pierre_soulages()
+# print("la couleur de mon velo rouge est", ma_bicyclette.col)

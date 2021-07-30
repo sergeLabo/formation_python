@@ -1,8 +1,7 @@
 # Formation Python
 
-## POO
+## POO programation orientée objet
 
-Introduction à la POO programation orientée objet, très inspiré par sametmax, et même copier !
 
 ### Pourquoi utiliser des objets ?
 
@@ -10,33 +9,14 @@ Introduction à la POO programation orientée objet, très inspiré par sametmax
 
 On peut faire des choses très puissante sans Objet
 
-* Présentation des scripts mnist: numpy et keras
-
 #### Intro
 
-Il y a des tas de manières de programmer. Des styles. Des formes que l’on donne au code. On leur donne des noms: programmation procédurale, fonctionnelle, orientée flux, par contrat, etc. C’est ce qu’on appelle des paradigmes, des points de vue sur comment on doit faire le boulot.
+Il y a des tas de manières de programmer. Des styles. Des formes que l’on donne au code. On leur donne des noms: programmation procédurale, fonctionnelle, orientée flux, par contrat, etc. 
 
-En vérité, le point de vue n’est pas déterminant. Vous pouvez faire le même boulot en utilisant n’importe lequel. L’important c’est de coder.
-
-Mais chaque point de vue possède des caractéristiques et des outils différents.
-
-Ce que vous allez voir est ce qu’on appelle la programmation orientée objet, ou POO. C’est un simple point de vue, un outil, mais il est très utilisé en Python, Ruby ou Java.
-
-Quand vous avez appris la programmation, on vous a montré comment stocker des données dans des structures de données:
-
-* les listes
-* les chaînes
-* les entiers
-* les dictionnaires
-* etc ...
-
-Et on vous a montré comment créer un comportement pour votre programme en utilisant des mots clés, puis plus tard en utilisant des fonctions pour regrouper ces mots clés.
-
-En Python, à ce stade, vous utilisez des fonctions pour agir sur des structures de données.
+Vous pouvez faire le même boulot en utilisant n’importe lequel. L’important c’est de coder.
 
 La programmation orienté objet, c’est un style de programmation qui permet de regrouper au même endroit le comportement (les fonctions) et les données (les structures) qui sont faites pour aller ensemble.
 
-C’est tout. C’est une simple question d’organisation du programme.
 
 #### Avantage de la POO
 
@@ -49,27 +29,17 @@ __Les objets servent à ranger les choses (les bouts de votre projet)__:
 * Pour pouvoir réutiliser des bouts de codes.
 * Permettre un travail en équipe en découpant un projet en bout de projet indépendant.
 
-Philosophie: Une fonction fait une chose. Une class fait une chose
 
 ### Vocabulaire
 
 Une class permet de créer des objets.
-Un objet est un machin:    une voiture, un moteur, une fleur,
-                            un amour, un modèle d'IA, un encodeur_decodeur ....
+Un objet est un machin:    une voiture, un moteur, une fleur, un amour, un modèle d'IA, un encodeur_decodeur ....
 
 Un objet a des méthodes et des attributs
     - une méthode est une fonction propre  à l'objet
     - un attribut est une variable qui appartient à cet objet
 
-Qu’est-ce qu’un objet ?
-
-Un objet est un… truc. Un machin. Un bidule.
-
-Ça peut vous paraître une définition floue, mais c’est parce que c’est exactement ce que peut être un objet: n’importe quoi que vous décidiez de coder. L’objet est un moyen de dire à la machine : “ce __entrez_ici_un_nom_de_truc__ possède telle donnée, et fait telle chose avec”.
-
-En Python, absolument tout est un objet : une chaîne, un entier, un dictionnaire, une liste, une fonction… Vous avez donc manipulé des objets sans le savoir. Maintenant vous allez créer les vôtres.
-
-Créer des objets se fait en deux étapes: décrire à quoi ressemble votre objet, et demander à l’ordinateur d’utiliser cette description pour le fabriquer.
+__En Python, tout est objet.__
 
 ### Résumé final
 
@@ -77,14 +47,11 @@ La class, c’est un plan.
 
 L’objet, c’est ce qu’on crée avec le plan.
 
-Une méthode, c’est une fonction déclarée dans une classe (qui est attachée à chaque objet produit, et on lui passe en premier paramètre l’objet en cours).
+Une méthode, c’est une fonction déclarée dans une classe
 
 Un attribut, c’est une variable attachée à un objet.
 
 Une instance d’une classe, c’est l’objet issu d’une classe.
 
-Le vocabulaire en informatique, c’est primordial.
-
-[sametmax.com](https://sametmax.com/le-guide-ultime-et-definitif-sur-la-programmation-orientee-objet-en-python-a-lusage-des-debutants-qui-sont-rassures-par-les-textes-detailles-qui-prennent-le-temps-de-tout-expliquer-partie-1/) le guide ultime et definitif sur la programmation orientee objet en python a lusage des debutants qui sont rassures par les textes detailles qui prennent le temps de tout expliquer
-
-
+### Ressources
+[sametmax.com](https://sametmax.com/le-guide-ultime-et-definitif-sur-la-programmation-orientee-objet-en-python-a-lusage-des-debutants-qui-sont-rassures-par-les-textes-detailles-qui-prennent-le-temps-de-tout-expliquer-partie-1/) le guide de la programmation orientee objet

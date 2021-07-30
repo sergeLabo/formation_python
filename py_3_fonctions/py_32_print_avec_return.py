@@ -1,6 +1,6 @@
 # # py_32_print_avec_return.py
 
-""" Excercice pour se détendre """
+""" Excercice sur return """
 
 def my_print(a):
     print(a)

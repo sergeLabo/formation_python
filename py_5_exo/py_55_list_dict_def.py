@@ -53,6 +53,9 @@ b) Calculate the average of all the gadgets.
 gadgets = ["Mobile", "Laptop", 100, "Camera", 310.28, "Speakers", 27.00,
             "Television", 1000, "Laptop Case", "Camera Lens"]
 
+
+
+
 ###### Exercise 5
 """
 Imaginons qu'une requête dans une DB vous donne:

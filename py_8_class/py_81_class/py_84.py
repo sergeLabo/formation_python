@@ -1,33 +1,18 @@
-# # py_84.py
+
+"""
+Utilisation d'une classe à la place d'un dictionnnaire
+
+Pour moi: voir le module enum
+"""
 
 
-class Bicycle:
-    """Un vélo"""
+perso_1 = { 'center': (1, 1, 1),
+            'who': 0,
+            'points_3D': None,
+            'since': 1,
+            'score': 0.5 }
 
-    def __init__(self, color, kind):
-        """C'est le constructeur"""
-
-        # self.color = color
-        self.col = color
-
-        self.kind = kind
-
-        self.pierre_soulages()
-
-    def pierre_soulages(self):
-        self.col += " foncé"
-
-
-def pierre_soulages(color):
-    return color + " clair"
-
-
-my_bicycle = Bicycle("rouge", "vtt")
-print(f"la couleur de mon velo rouge est {my_bicycle.col}")
-print(f"il est du type {my_bicycle.kind}")
-
-# c = pierre_soulages("rose")
-# print("pierre_soulages(rose) =", c)
-
-# my_bicycle.pierre_soulages()
-# print("la couleur de mon velo rouge est", my_bicycle.col)
+# Je veux appeler
+c = perso_1.center
+# au lieu de
+c = perso_1['center']
