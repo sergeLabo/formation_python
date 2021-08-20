@@ -14,7 +14,7 @@ else:
     bissex = False
 
 if bissex:
-    print(annee, "est bissextile") # Modifier avec des f-string
+    print(annee, "est bissextile")
 else:
     print(f"{annee} n'est pas bissextile")
 

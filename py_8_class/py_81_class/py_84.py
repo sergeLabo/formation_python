@@ -1,8 +1,6 @@
 
 """
-Utilisation d'une classe à la place d'un dictionnnaire
-
-Pour moi: voir le module enum
+Créer une classe à la place du dictionnnaire
 """
 
 

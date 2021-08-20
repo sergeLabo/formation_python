@@ -1,12 +1,13 @@
 # # py_13_boucle.py
 
+# Boucle simple
 n= 0
 while n < 5:
     print(n)
     n += 1
 
 
-
+# 2 boucles imbriquées
 n= 0
 while n < 5:
 

@@ -25,11 +25,13 @@ if annee % 4 == 0:
 else:
     bissex = False
 
+# Avec f-string, à partir de python 3.6
 if bissex:
     print(f"{annee} est bissextile")
 else:
     print(f"{annee} n'est pas bissextile")
 
+# Sans f-string
 # if bissex:
     # print(annee, "est bissextile")
 # else:

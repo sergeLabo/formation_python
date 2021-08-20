@@ -1,35 +1,29 @@
 # # py_74.py
 
-#### Utilisation courrante
+#### Exemple propre
 
-# #def divide(x, y):
-    # #result = None
-    # #try:
-        # #result = x / y
-    # #except:
-        # #print("Pas de résultat")
+import os
+from pathlib import Path
 
-    # #return result
 
-# #resp = divide(1, 0)
-# #print("Tout va bien !", resp)
-
-# #print("\n\n")
-# #resp = divide("1", 0)
-# #print("Dernier essai !", resp)
-
-def get_data(socket):
-
-    data = None
+def create_directory(directory):
+    """Crée le répertoire avec le chemin absolu, ou relatif"""
     try:
-        data = socket.receive()
+        # mode=0o777 est par défaut
+        Path(directory).mkdir(mode=0o777, parents=False)
+        print("Création du répertoire: {}".format(directory))
+    except FileExistsError as e:
+        print(e)
+        print("Le répertoire {} existe.".format(directory))
+    except PermissionError as e:
+        print(e)
+        print("Problème de droits avec le répertoire {}".format(directory))
     except:
-        # #print("Pas de data reçue")
-        pass
+        print("Erreur avec {}".format(directory))
+        os._exit(0)
 
-    return data
+create_directory("test")
 
-while 1:
-    socket = "essai"
-    data = get_data(socket)
-    print(data)
+ici = os.getcwd()
+print("ce script est:", ici)
+create_directory(ici + "/test")

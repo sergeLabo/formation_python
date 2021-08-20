@@ -12,12 +12,8 @@ try:
 except:
     pass
 
-print("Génial, c'est passé comme une fleur ...")
+print("Ca tourne ...")
 sleep(10)
-for i in range(10):
-    print("\n\nGénial, la centrale de Tchernobyl explose ... ")
+for i in range(100):
+    print("\n\nBoum! la centrale de Tchernobyl a explosé ... ")
     sleep(1)
-
-sleep(2)
-print("\n\nExplication:\n")
-print("erreur", erreur)

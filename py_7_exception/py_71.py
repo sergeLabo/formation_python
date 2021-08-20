@@ -4,16 +4,16 @@
 
 from time import sleep
 
-# #a = 1
-# #b = 0
+a = 1
+b = 0
 
-# #try:
-    # #infini = a / b
-    # #print("ok")
-# #except:
-    # #infini = "infini"
+try:
+    infini = a / b
+    print("ok")
+except:
+    infini = "infini"
 
-# #print("L'infini est ", infini)
+print("L'infini est", infini, ".")
 
 # Exemple d'exceptions
 # #while True print('Hello world')
@@ -55,11 +55,11 @@ def divide(x, y):
 
 # divide_toto(2, 1)
 
-try:
-    a = 10
-    oui = 1/0
-except:
-    pass
+# #try:
+    # #a = 10
+    # #oui = 1/0
+# #except:
+    # #pass
 
-print("a final =", a)
-print(oui)
+# #print("a final =", a)
+# #print(oui)

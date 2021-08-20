@@ -2,6 +2,8 @@
 
 ## Liste
 
+code = jedi66
+
 ### Exemples
 liste = [1, 2, 3, 4, 5]
 index    0  1  2  3  4
@@ -15,10 +17,11 @@ liste[1] = 2
 liste[0] = 1
 ```
 
-[sametmax.com valeurs et references en python](https://sametmax.com/valeurs-et-references-en-python/)
+sametmax.com valeurs et references en python
 
 ### Parcours d'une liste
-``` python
+```python
+
 for item in liste:
     print(item)
 
@@ -28,6 +31,7 @@ for i in range(len(liste)):
 for item in liste:
     i = liste.index(item)
     print(liste[i])
+
 ```
 
 ### Quelques opérations sur les listes
@@ -38,7 +42,7 @@ suite.append(3.14159)
 ```
 
 
-### Slices 
+### Slices
 ``` python
 liste = [1, 2, 3, 4, 5, 5, 6, 7, 21.3, 'oh!', [3.21, 1478000], 3.14159]
 part = liste[3:6]
@@ -69,6 +73,7 @@ b = a.copy()
 ### List Comprehension
 
 Définitions de compréhension en Logique: Ensemble des caractères propres à un concept.
+
 ``` python
 liste = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 pair = [p for p in liste if p % 2 == 0]

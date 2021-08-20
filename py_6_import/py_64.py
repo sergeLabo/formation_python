@@ -5,18 +5,3 @@
 from dossier_local.file_in_dir import print_plus_loin
 
 print_plus_loin()
-
-
-
-from pathlib import Path
-
-p = Path(__file__).resolve().parents[0]
-print(p)
-p = Path(__file__).resolve().parents[1]
-print(p)
-p = Path(__file__).resolve().parents[2]
-print(p)
-
-
-
-# ## /absolute/path/to/two/levels/up

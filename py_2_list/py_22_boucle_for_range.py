@@ -2,14 +2,11 @@
 
 """ Parcours de liste """
 
-liste = [1, 2, 3, 4, 5, 5, 6, 7, 21.3, "oh!", [3.21, 1478000]]
-#        0  1  2  3  4  5  6  7  8      9      10
-#                                              premier du 11 ème = 3.21
-#                                              le 11ème a l'index 10
-#                                              [10][0]
+liste = [1, 2, 3, 4, 5, 5, 6, 7, 21.3]
+#        0  1  2  3  4  5  6  7  8
+
 # print(len(liste))
 # print(liste[10])
-# print(liste[10][0])
 
 """Parcours"""
 
@@ -22,12 +19,12 @@ liste = [1, 2, 3, 4, 5, 5, 6, 7, 21.3, "oh!", [3.21, 1478000]]
 # for entier in range(5, 10, 2):
     # print("ttt", entier)
 
-# index = 12
-# a = liste.index(21.3)
-# print(a)
-
 # for i in range(len(liste)):
     # print(liste[i])
+
+for i, item in enumerate(liste):
+    print("enumerate", i, item)
+
 
 """ Liste de listes """
 points = [  [12.3, 45],
@@ -35,6 +32,9 @@ points = [  [12.3, 45],
             [2.3, 7.45],
             [-0.012, -56.145],
             [2, 1]]
+
+print(points[0][0])
+print(points[0][1])
 
 # for point in points:
     # print("Un point =", point, "avec coordonnées du point:", point[0], point[1])
