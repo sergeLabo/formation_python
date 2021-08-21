@@ -7,13 +7,13 @@ dans .replit
 language = "python3"
 run = "python3 ./main.py"
 
-dans tous les fichiers, ajouter
-
-# replit_main ok
+Tous les fichier ont cette ligne en 1ère ligne
 # replit_main
 
-Commenter cette ligne dans tous les fichiers,
-sauf celui que l'on souhaite excécuter
+Ajouter " ok" défini le fichier à excécuter
+# replit_main ok
+
+Un seul fichier doit avoir ce ok
 
 """
 
