@@ -1,3 +1,5 @@
+# replit_main
+
 # Numeric table based on the Perl's Net::IRC.
 numeric = {
     "001": "welcome",

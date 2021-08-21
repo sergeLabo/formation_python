@@ -1,3 +1,5 @@
+# replit_main
+
 def parse_nick_modes(mode_string):
     """Parse a nick mode string.
 

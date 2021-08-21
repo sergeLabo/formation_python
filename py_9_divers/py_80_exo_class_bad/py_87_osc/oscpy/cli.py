@@ -1,3 +1,5 @@
+# replit_main
+
 # coding: utf8
 """OSCPy command line tools"""
 

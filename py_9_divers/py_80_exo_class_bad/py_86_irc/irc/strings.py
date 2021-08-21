@@ -1,3 +1,5 @@
+# replit_main
+
 import string
 
 from jaraco.text import FoldedCase

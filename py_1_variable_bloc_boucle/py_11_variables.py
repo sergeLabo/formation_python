@@ -1,3 +1,5 @@
+# replit_main
+
 # # py_11_variables.py
 """
 L'interpréteur de python.org
@@ -12,6 +14,8 @@ e = "éàèùîêâôû@çöü"
 
 r = a + b
 print("r", r)
+
+# replit main ok
 
 s = a - b
 print("a - b =", s)

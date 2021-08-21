@@ -1,17 +1,7 @@
+# replit_main
+
 # # py_30_fonction.py
 
-""" Fonctions: Pourquoi créer des fonctions ?
-
-    Pour éviter les répétitions, sources d'erreurs, surtout si une modifications
-        de ces répétitions est nécessaire.
-    Pour structurer le projet.
-    Tester séparément des bouts de code, quand il marche,
-        on est  sûr que l'erreur ne vient pas de cette fonction.
-    Travailler à plusieurs.
-    Ces bouts de code peuvent être dans des fichiers différents, ce qui est
-        important quand le code est très long.
-    Pour pouvoir réutiliser des bouts de codes.
-"""
 
 def multiplie(a, b):
     resp = a * b
@@ -20,12 +10,13 @@ def multiplie(a, b):
 def ajoute(a, b):
     resp = a + b
     return resp
+    print("perdu !")
 
 m = multiplie(2, 2)
 print("2 x 2 font", m)
 
 a = ajoute(1, 1)
-print("1 + 1 peuvent faire", 1 + a)
+print("1 + 1 font", a)
 
 # Calculer en utilisant les 2 fonctions
 # r = (2 + 4) * (4.5 + 6)

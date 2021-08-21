@@ -1,3 +1,5 @@
+# replit_main
+
 
 string = "Maître Corbeau sur un arbre perché, tenait en son bec un fromage."
 print(len(string), string[2], string[-3])

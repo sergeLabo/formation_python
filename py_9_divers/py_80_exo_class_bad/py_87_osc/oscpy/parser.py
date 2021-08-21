@@ -1,3 +1,5 @@
+# replit_main
+
 """Parse and format data types, from and to packets that can be sent.
 
 types are automatically inferred using the `PARSERS` and `WRITERS` members.

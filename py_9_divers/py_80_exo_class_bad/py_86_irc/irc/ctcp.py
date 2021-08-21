@@ -1,3 +1,5 @@
+# replit_main
+
 """
 Handle Client-to-Client protocol per the `best available
 spec <http://www.irchelp.org/irchelp/rfc/ctcpspec.html>`_.

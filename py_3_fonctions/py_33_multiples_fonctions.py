@@ -1,9 +1,7 @@
+# replit_main
+
 # # py_33_multiples_fonctions.py
 
-""" Programmation linéaire
-    Programmation fonctionnelle
-    Programmation orientée objet avec des class
-"""
 
 def is_bissex(annee):
     """Calcule si une année est bissextile ou pas.

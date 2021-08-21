@@ -1,3 +1,5 @@
+# replit_main
+
 """Server API.
 
 This module currently only implements `OSCThreadServer`, a thread based server.

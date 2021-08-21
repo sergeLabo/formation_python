@@ -1,3 +1,5 @@
+# replit_main
+
 "Simple utility class to gather stats about the volumes of data managed"
 
 from collections import Counter

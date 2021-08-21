@@ -1,3 +1,5 @@
+# replit_main
+
 # # py_43_exo_dict_config.py
 """
 Récupérer dans config

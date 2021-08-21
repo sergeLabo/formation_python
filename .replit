@@ -1,2 +1,2 @@
 language = "python3"
-run = "python3 9_divers/95_revision_list_dict_tuple_funct/95_revision.py"
+run = "python3 main.py"

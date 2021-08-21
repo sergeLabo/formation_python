@@ -1,16 +1,22 @@
+# replit_main
+
 
 import os
 import cv2
 
-img = cv2.imread('./logo-labomedia.png')
+current = os.getcwd()
+print(current)
+
+img = cv2.imread(current + '/logo-labomedia.png')
 if img is None:
     print("Pas d'image")
     os._exit(0)
 
-while 1:
-
+i = 0
+while i < 100:
+    i += 1
     cv2.imshow('image', img)
-    print("ok")
+    print(i)
     # Pour quitter
     if cv2.waitKey(100) & 0xFF == 27:
         break

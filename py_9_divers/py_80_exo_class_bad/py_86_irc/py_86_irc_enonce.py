@@ -1,3 +1,5 @@
+# replit_main
+
 
 """
 Créer 1 bot sur irc labomedia

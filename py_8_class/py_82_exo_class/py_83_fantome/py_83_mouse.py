@@ -1,3 +1,5 @@
+# replit_main
+
 # # py_83_mouse.py
 from pynput import mouse
 
